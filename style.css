@@ -6,7 +6,7 @@ body {
   font-family: 'Cutive Mono', monospace;
   color: rgb(10,10,10);
   padding: 40px;
-  background: rgb(250,250,250);
+  background: rgb(50,50,50);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -31,8 +31,8 @@ li {
   flex-wrap: wrap;
 }
 img {
-  width: 250px;
-  height: 250px;
+  width: 550px;
+  height: 550px;
   object-fit: contain;
 
 }
