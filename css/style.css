@@ -413,13 +413,13 @@ a.icon {
 .header-two .header-thumb,
 .header-three .header-thumb,
 .header-four .header-thumb,
-.header-five .header-thumb {
+.header-circle .header-thumb {
   padding: 32px 20px 32px 20px !important;
 }
 
 .header-one, .header-two,
 .header-three, .header-four,
-.header-five {
+.header-circle {
   height: 42vh !important;
   min-height: 420px;
   padding-top: 120px !important;
@@ -440,8 +440,9 @@ a.icon {
 .header-four {
   background: url('../images/header-four-bg.jpg') no-repeat;
 }
-.header-five {
-  background: url('../images/header-five-bg.jpg') no-repeat;
+.header-circle {
+  background: url('../images/circle_colors.gif') no-repeat;
+
 }
 
 /* Portfolio section styles
@@ -450,6 +451,7 @@ a.icon {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 6rem;
+	/*margin-top:60px;*/
 }
 
 #portfolio img {
@@ -460,6 +462,7 @@ a.icon {
   position: relative;
   overflow: hidden;
   margin: 0;
+
 	/*width:324px;
 	height:324px;*/
 }
@@ -592,10 +595,15 @@ a.icon {
   padding-bottom: 8rem;
 }
 
-#about .col-md-4 {
+#about .col-sm-12 {
   padding-top: 16px;
   padding-bottom: 32px;
 }
+
+#about .row{
+	text-align: right;
+}
+
 
 #about img {
   padding-bottom: 20px;
@@ -608,15 +616,20 @@ a.icon {
 
 /* blog & single post section styles
 /* ========================================== */
+
 #blog,
 #single-post {
   padding-top: 4rem;
   padding-bottom: 6rem;
 }
 
-#blog .blog-thumb {
-  padding-top: 60px;
+.blog-thumb {
+  padding-top: 30px;
   padding-bottom: 40px;
+}
+
+.blog-thumb p {
+  text-align: right;
 }
 
 #blog .post-format,
