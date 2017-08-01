@@ -426,7 +426,7 @@ a.icon {
 }
 
 .header-one {
-  background: url('../images/header-bg.jpg') no-repeat;
+  background: url('../images/ppl.jpg') no-repeat;
   height: 60vh !important;
   min-height: 520px;
   padding-top: 150px !important;
@@ -453,13 +453,15 @@ a.icon {
 }
 
 #portfolio img {
-  width: 100%;
+  width: 80%;
 }
 
 #portfolio .portfolio-thumb {
   position: relative;
   overflow: hidden;
   margin: 0;
+	/*width:324px;
+	height:324px;*/
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
@@ -469,7 +471,7 @@ a.icon {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 80%;
   height: 100%;
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
@@ -482,7 +484,7 @@ a.icon {
 
 #portfolio .portfolio-thumb .portfolio-overlay .portfolio-item {
     text-align: center;
-    padding: 30% 20px 20px;
+    padding: 40% 20px 20px;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay .fa {
@@ -547,10 +549,13 @@ a.icon {
 
 .iso-box {
     position: relative;
-    min-height: 50px;
+    /*min-height: 50px;*/
     float: left;
     overflow: hidden;
     margin-bottom: 25px;
+		padding:0px;
+
+
 }
 
 .iso-box > a {
@@ -690,73 +695,6 @@ a.icon {
 }
 
 
-/* contact section styles
-/* ========================================== */
-#contact {
-  padding-top: 5rem;
-  padding-bottom: 0rem;
-}
-
-#contact .fa {
-  font-size: 32px;
-  padding-right: 10px;
-}
-
-#contact #map-canvas  {
-  border: none;
-  width: 100%;
-  height: 300px;
-  margin-top: 40px;
-}
-
-#contact .contact-form {
-  padding-top: 14px;
-}
-
-#contact .form-control {
-  background: transparent;
-  border: 1px solid #eee;
-  border-radius: 0px;
-  box-shadow: none;
-  font-size: 16px;
-  margin-bottom: 16px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:hover {
-  border-color: #f0f0f0;
-}
-
-#contact textarea {min-height: 100px;}
-
-#contact input {height: 50px;}
-
-#contact input[type='submit'] {
-  background: #111112;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  transition: all 0.4s ease-in-out;
-  margin-top: 10px;
-}
-
-#contact input[type='submit']:hover {
-  background: #444;
-}
-
-.contact-submit {
-	width: 50%;
-}
-
-#contact .col-md-4 {
-  background: #fff;
-  padding: 62px 0px 32px 42px;
-  position: relative;
-  bottom: -50px;
-}
-
-
 
 /* footer section styles
 /* ========================================== */
@@ -801,24 +739,7 @@ footer {
   background: #ffffff;
 }
 
-/* Responsive Mobile styles
-/* ========================================== */
-@media (max-width: 980px) {
 
-  .intro-inner {top: 30%;}
-
-  #contact .col-md-4 {
-    padding: 62px 20px 42px 32px;
-  }
-
-  #contact .col-md-4 p {
-    font-size: 12px;
-  }
-
-  #contact #map-canvas {
-    margin-bottom: 60px;
-  }
-}
 
 
 @media (max-width: 768px) {
